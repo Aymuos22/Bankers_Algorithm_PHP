@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Instead of percentage, use a fixed padding */
+}
+
+.heading h1 {
+    color: white;
+    margin: 10px; /* Remove default margin for <h1> */
+}
+
+.heading a{
+    position: absolute;
+    right:0;
+    padding:10px;
+    margin:30px;
+    background-color: azure;
+    border-radius: 15px;
+}
+.banner {
+    background: linear-gradient(to bottom, #1a9ec3bd, #28003a);
+    width: 100%; /* Full width */
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px; /* Add margin for spacing */
+}
+
+.form input {
+    padding: 8px; /* Increase input padding */
+    margin-bottom: 10px; /* Add bottom margin to inputs for spacing */
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+#btn {
+    background-color: rgb(213, 213, 213);
+    border-radius: 2px;
+    padding: 10px 20px; /* Add padding to the button */
+    cursor: pointer;
+    color:black;
+}
+
+
+.result {
+    width: 60%;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 30px;
+    background-color: rgba(232, 215, 215, 0.47);
+    margin: 40px 0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative; 
+}
+
+.result::-webkit-scrollbar {
+    width: 10px; 
+}
+
+.result::-webkit-scrollbar-thumb {
+    background-color: #888; 
+}
+
+.result::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+}
+
+
+.result:hover {
+    background-color: #ffffff;
+}
+
+a{
+    padding: 3px;
+    position: absolute;
+    top: 10px; /* Adjust the distance from the top */
+    right: 10px; /* Adjust the distance from the right */
+    padding: 10px;
+    background-color: azure;
+    border-radius: 15px;
+}

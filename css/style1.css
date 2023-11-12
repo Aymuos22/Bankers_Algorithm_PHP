@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Instead of percentage, use a fixed padding */
+}
+
+.heading h1 {
+    color: white;
+    margin: 10px; /* Remove default margin for <h1> */
+}
+.heading a{
+    position: absolute;
+    right:0;
+    padding:10px;
+    margin:30px;
+    background-color: azure;
+    border-radius: 15px;
+}
+.banner {
+    background: linear-gradient(to bottom, #b700ff, #e91e63);
+    width: 100%; /* Full width */
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px; /* Add margin for spacing */
+}
+
+.form input {
+    padding: 8px; /* Increase input padding */
+    margin-bottom: 10px; /* Add bottom margin to inputs for spacing */
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+#btn {
+    background-color: rgb(213, 213, 213);
+    border-radius: 2px;
+    padding: 10px 20px; /* Add padding to the button */
+    cursor: pointer;
+    color:black;
+}
+
+.result {
+    width: 60%;
+    padding: 30px;
+    background-color: white;
+    margin: 40px 0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    overflow-y: auto; /* Enable vertical scroll */
+    max-height: 300px; /* Set maximum height for scrollable area */
+}
+
+.result:hover {
+    background-color: #f0f0f0;
+}
