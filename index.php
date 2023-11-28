@@ -28,7 +28,7 @@ The ATM Resource Management System is a dynamic web application utilizing PHP fo
     <div class="info">
         <h1>Contributors</h1>
         <ul>
-            <li>Aditya Srivastava</li>
+            <li>Soumya Darshan</li>
         </ul>
     </div>
 </body>
